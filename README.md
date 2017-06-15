@@ -75,3 +75,14 @@ Enumerations zit in de game doordat er in de map Definitions `keys.ts` zit. Hier
 ### Library
 In de Game is er gebruik gemaakt van een Animatie Library van Greensock. Deze is te vinden in `greensock.d.ts`. Zodra de speler 0 levens heeft wordt er een Game Over div op het scherm getoont. Deze komt naar het midden van het scherm met behulp van deze library.
 `TweenLite.to(endDiv, 2, { ease: SlowMo.ease.config(0.7, 0.7, false), y: 400});`
+
+<hr>
+
+# Review door Sonny
+
+Gebruikt gemaakt van library voor de gameover scherm
+Enumerations gebruitk voor de toetsenbord code
+Obser toegepast bij rings en cat is de subscriber. Notify() wordt aangeroepen bij idle behaviour van cat
+Gameloop bij game.ts
+
+Game voldoet aan de eisen en geef ik dus een voldoende.
